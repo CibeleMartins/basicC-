@@ -14,8 +14,6 @@ int main () {
     finalPrice = price + iva;
 
     cout << "The price of the product more the imposte is:  " << finalPrice << endl;
-
-
-
+    
     return 0;
 }
