@@ -17,6 +17,8 @@ int main () {
 
     result = (a + b) / (c + d);
 
+    cout.precision(2);
+
     cout << "Result is:  " << result;
 
     return 0;
