@@ -6,11 +6,11 @@ using namespace std;
 
 int main () {
 
-    float saldo_inicial = 1000;
+    float initial_balance = 1000;
     int option;
     float add_cash;
     float get_cash;
-    float saldo_final;
+    float final_balance;
 
     cout << "Welcome in your cash machine!" << endl;
     cout << "Press 1 for insert cash" << endl;
@@ -23,18 +23,18 @@ int main () {
         cout << "Insert cash:";
         cin>>add_cash;
 
-      saldo_final =  saldo_inicial + add_cash;
+      final_balance =  initial_balance + add_cash;
 
-      cout << "You add " << add_cash << "." << " Your final balance is:  " << saldo_final;
+      cout << "You add " << add_cash << "." << " Your final balance is:  " << final_balance;
 
     } else {
 
         cout << "Take a cash: ";
         cin>>get_cash;
 
-        saldo_final = saldo_inicial - get_cash;
+        final_balance = initial_balance - get_cash;
 
-        cout << "You take " << get_cash << "." << " Your final balance is:  " << saldo_final;
+        cout << "You take " << get_cash << "." << " Your final balance is:  " << final_balance;
     }
 
 
