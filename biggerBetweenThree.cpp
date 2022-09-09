@@ -20,12 +20,16 @@ int main () {
     cin>>n3;
 
 
-    switch (n1, n2, n3)
-    {
-    case 1 > n2 : cout << "N1 is bigger then n2.";
-        break;
-    
-    default:
-        break;
+    if ((n1 > n2) && (n1 > n3)) {
+
+        cout << "Number one is bigger!!!";
+    } else if ((n2 > n1) && (n2 > n3)) {
+
+        cout << "Number two is bigger!!!";
+    } else {
+
+        cout << "Number three is bigger!!!";
     }
+
+    return 0;
 }
