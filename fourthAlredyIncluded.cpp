@@ -66,6 +66,5 @@ int main () {
         cout << "Not have numbers equal at fourth number.";
     }
 
-
     return 0;
 }
