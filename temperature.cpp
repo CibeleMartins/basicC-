@@ -5,27 +5,27 @@ using namespace std;
 
 int main () {
 
-    float temperature, bigger = 0, smaller = 9999999;
-    float sumTemperatures = 0, media = 0;
+        float temperature, bigger = 0, smaller = 9999999;
+        float sumTemperatures = 0, media = 0;
 
 
-    for (int i = 0; i < 24; i = i + 4) {
+        for (int i = 0; i < 24; i = i + 4) {
 
-        cout << "Insert the temprature of the hour " << i << ": ";
-        cin>>temperature;
+            cout << "Insert the temprature of the hour " << i << ": ";
+            cin>>temperature;
 
-        sumTemperatures += temperature;
+            sumTemperatures += temperature;
 
-        if (temperature > bigger) {
+            if (temperature > bigger) {
 
-            bigger = temperature;
+                bigger = temperature;
+            }
+
+            if (temperature < smaller) {
+
+                smaller = temperature;
+            }
         }
-
-         if (temperature < smaller) {
-
-            smaller = temperature;
-        }
-    }
 
         media = sumTemperatures / 6;
 
