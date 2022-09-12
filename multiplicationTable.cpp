@@ -15,9 +15,9 @@ int main () {
    
         cout << "Multiplication Table" << endl;
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <= 10; i++) {
 
-            cout << number << " x " << i + 1 << endl;
+            cout << number << " x " << i << " = " << number*i << endl;
         }
 
     } else {
@@ -30,7 +30,7 @@ int main () {
 
         for (int i = 0; i < 10; i++) {
 
-            cout << number << " x " << i + 1 << endl;
+            cout << number << " x " << i + 1 << " = " << number*i << endl;
         }
 
     }
