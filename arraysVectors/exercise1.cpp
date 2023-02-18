@@ -12,7 +12,6 @@ int main () {
 
         sum += i;
 
-
     }
 
     cout << "Sum is: " << sum;
